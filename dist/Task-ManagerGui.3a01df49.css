@@ -1,0 +1,118 @@
+body {
+  color: #4b4949;
+  background: linear-gradient(to right, #f0f2f5, #c4d7ec);
+  margin: 0;
+  padding: 40px 0;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333131;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.manageContainer {
+  max-width: 1000px;
+  margin: auto;
+  padding: 22px;
+}
+
+.createUserSection {
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 12px #0000000d;
+}
+
+.createTaskSection {
+  background-color: #fff;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 12px #0000000d;
+}
+
+.filterTaskSection {
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 12px #0000000d;
+}
+
+.allTasksSection {
+  background-color: #fff;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 12px #0000000d;
+}
+
+.pendingTasksSection, .usersSection {
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 12px #0000000d;
+}
+
+h3 {
+  color: #07c;
+  margin-top: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+input, select {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 200px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  border: none;
+  border-radius: 6px;
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background .3s;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0056b3, #003e80);
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+li {
+  border-bottom: 1px solid #eee;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  display: flex;
+}
+
+li button {
+  margin-left: 10px;
+  font-size: .9rem;
+}
+
+li strong {
+  color: #333;
+  font-size: 1.1rem;
+}
+/*# sourceMappingURL=Task-ManagerGui.3a01df49.css.map */

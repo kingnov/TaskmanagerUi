@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="/Task-ManagerGui.3a01df49.css">
+</head>
+<body>
+  <div class="manageContainer">
+    <h1>Task Manager</h1>
+
+    <div class="createUserSection">
+      <h3>Create User</h3>
+      <input type="text" id="username" placeholder="User name">
+      <button onclick="addUser()">Add User</button>
+    </div>
+
+    <div class="createTaskSection">
+      <h3>Create Task</h3>
+      <input type="text" id="title" placeholder="Task title">
+      <input type="text" id="description" placeholder="Task description">
+      <select id="userSelect"></select>
+      <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <div class="filterTaskSection">
+      <h3>Filter Tasks by User</h3>
+      <select id="filterUser" onchange="filterByUser()"></select>
+    </div>
+
+    <div class="allTasksSection">
+      <h3>All Tasks</h3>
+      <ul id="taskList"></ul>
+    </div>
+
+    <div class="pendingTasksSection">
+      <h3>Pending Tasks</h3>
+      <ul id="pendingTasks"></ul>
+    </div>
+
+    <div class="usersSection">
+      <h3>Users</h3>
+      <ul id="userList"></ul>
+    </div>
+  </div>
+
+  <script type="module" src="/Task-ManagerGui.5e0e6471.js"></script>
+
+
+</body></html>

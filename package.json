@@ -1,0 +1,13 @@
+{
+  "name": "taskmanagergui",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
