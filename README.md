@@ -23,22 +23,26 @@ A simple, browser-based Task Manager built with TypeScript and HTML. It allows y
 ## 📸 UI Screenshots
 
 ### 🔹 All Users
-![/home/muliro/Pictures/Screenshots/Screenshot from 2025-05-23 16-41-16.png]
+<!-- Upload screenshot of user list -->
+![ui sreenshots](images/all-users.png)
 
 ---
 
 ### 🔹 All Tasks (Assigned)
-![/home/muliro/Pictures/Screenshots/Screenshot from 2025-05-23 16-43-01.png]
+<!-- Upload screenshot of all tasks -->
+![ui sreenshots](images/all-task.png)
 
 ---
 
 ### 🔹 Pending Tasks
-![/home/muliro/Pictures/Screenshots/Screenshot from 2025-05-23 16-42-41.png]
+<!-- Upload screenshot of pending tasks section -->
+![ui sreenshots](images/pending-tasks.png)
 
 ---
 
 ### 🔹 Assigning Tasks
-![/home/muliro/Pictures/Screenshots/Screenshot from 2025-05-23 16-43-16.png]
+<!-- Upload screenshot showing task creation and assignment -->
+![ui sreenshots](images/add-user.png)
 
 ---
 
